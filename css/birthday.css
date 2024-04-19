@@ -1,0 +1,15 @@
+.countdown{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .time{
+    text-align: center;
+    margin: 0.5em;
+  }
+  
+  .time span{
+    font-size: 2.5em;
+    display: block;
+  }
