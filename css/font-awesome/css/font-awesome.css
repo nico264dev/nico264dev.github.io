@@ -6,6 +6,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -14,6 +15,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.fa-discord {
+  content: "\f392";
+  font-size: inherit;
+}
+
+.fa-discord:hover {
+  -webkit-transform: rotateZ(720deg);
+  -moz-transform: rotateZ(720deg);
+  transform: rotateZ(720deg);
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition:  0.6s ease-out;
+  transition:  0.6s ease-out;
+}
+
 .fa-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
@@ -131,6 +147,9 @@
 :root .fa-flip-vertical {
   filter: none;
 }
+
+
+
 .fa-stack {
   position: relative;
   display: inline-block;
@@ -610,6 +629,16 @@
 .fa-github:before {
   content: "\f09b";
 }
+
+.fa-github:hover {
+  -webkit-transform: rotateZ(720deg);
+  -moz-transform: rotateZ(720deg);
+  transform: rotateZ(720deg);
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition:  0.6s ease-out;
+  transition:  0.6s ease-out;
+}
+
 .fa-unlock:before {
   content: "\f09c";
 }
@@ -1193,6 +1222,16 @@
 .fa-instagram:before {
   content: "\f16d";
 }
+
+.fa-instagram:hover {
+  -webkit-transform: rotateZ(720deg);
+  -moz-transform: rotateZ(720deg);
+  transform: rotateZ(720deg);
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition:  0.6s ease-out;
+  transition:  0.6s ease-out;
+}
+
 .fa-flickr:before {
   content: "\f16e";
 }
