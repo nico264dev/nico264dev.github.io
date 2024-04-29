@@ -581,6 +581,16 @@
 .fa-heart-o:before {
   content: "\f08a";
 }
+
+.fa-heart-o:hover {
+  -webkit-transform: rotateZ(720deg);
+  -moz-transform: rotateZ(720deg);
+  transform: rotateZ(720deg);
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition:  0.6s ease-out;
+  transition:  0.6s ease-out;
+}
+
 .fa-sign-out:before {
   content: "\f08b";
 }
@@ -1647,6 +1657,16 @@
 .fa-copyright:before {
   content: "\f1f9";
 }
+
+.fa-copyright:hover {
+  -webkit-transform: rotateZ(720deg);
+  -moz-transform: rotateZ(720deg);
+  transform: rotateZ(720deg);
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition:  0.6s ease-out;
+  transition:  0.6s ease-out;
+}
+
 .fa-at:before {
   content: "\f1fa";
 }
